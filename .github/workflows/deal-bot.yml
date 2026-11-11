@@ -1,4 +1,4 @@
-name: GPU deal bot
+name: GPU-deal-bot
 
 on:
   schedule:
