@@ -7,12 +7,15 @@
     { "name": "RTX 5070",    "target_price": 650,  "pattern": "(?<!\\d)5070(?![\\s-]*ti)" }
   ],
   "exclude_words": [
-    "laptop", "notebook", "prebuilt", "pre-built", "gaming pc", "desktop pc",
-    "waterblock", "water block", "backplate", "bracket", "riser", "used", "refurbished"
+    "laptop", "notebook", "prebuilt", "pre-built", "gaming pc", "desktop", "all-in-one",
+    "waterblock", "water block", "backplate", "bracket", "riser", "used", "refurbished",
+    "open box", "open-box"
   ],
-  "feeds": [
-    "https://www.reddit.com/r/buildapcsales/new/.rss",
+  "max_post_age_hours": 12,
+  "reddit_subreddits": ["buildapcsales"],
+  "rss_feeds": [
     "https://slickdeals.net/newsearch.php?q=9070&searcharea=deals&searchin=first&rss=1",
     "https://slickdeals.net/newsearch.php?q=5070&searcharea=deals&searchin=first&rss=1"
-  ]
+  ],
+  "bestbuy_searches": ["9070", "5070"]
 }
